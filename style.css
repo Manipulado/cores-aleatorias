@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 
-div{
+section{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,8 +16,8 @@ div{
 }
 
 div h1{
-    background: rgba(0, 0, 0, 0.493);
-    color:  white;
+    color:  black;
+    font-size: 4rem;
     padding: 20px;
     border-radius: 10px;
 }
@@ -25,8 +26,19 @@ div a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 10px;
-    border: 1px solid white;
+    padding: 20px 15px;
+    border: 1px solid black;
+    margin: 20px;
     border-radius: 10px;
     color: black;
+}
+
+.contador p{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
 }
